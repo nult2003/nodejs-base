@@ -1,2 +1,4 @@
 /prisma-fullstack-consume/frontend/node_modules/*
 
+/nodejs-typescript-express/node_modules/*
+/nodejs-typescript-express/dist/*
