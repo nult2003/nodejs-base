@@ -1,11 +1,11 @@
-import ResfulConsumeBase from "./base/abstract-consume.service";
+import FetchResfulConsumeBase from "./base/abstract-consume.service";
 import { ApiResult } from "base/api.result";
 
 interface DataDemo{
     
 }
 
-class ServiceDemo extends ResfulConsumeBase{
+class FetchServiceDemo extends FetchResfulConsumeBase{
     constructor(){
         super();
         //  call from nest-repository-pattern project
@@ -18,4 +18,4 @@ class ServiceDemo extends ResfulConsumeBase{
     }
 }
 
-export default ServiceDemo;
+export default FetchServiceDemo;
